@@ -1,0 +1,41 @@
+body{
+	margin:0;
+	padding:0;
+    background-image: url(https://th.bing.com/th/id/OIP.ToCJ3kA9RGOEyQwwPmmx0wHaEh?rs=1&pid=ImgDetMain);
+}
+/* .container{
+	width:90%
+	margin:10px auto;
+} */
+.portfolio-menu{
+	text-align:center;
+}
+.portfolio-menu ul li{
+	display:inline-block;
+	margin:0;
+	list-style:none;
+	padding:10px 15px;
+	cursor:pointer;
+	-webkit-transition:all 05s ease;
+	-moz-transition:all 05s ease;
+	-ms-transition:all 05s ease;
+	-o-transition:all 05s ease;
+	transition:all .5s ease;
+}
+
+.portfolio-item{
+	/*width:100%;*/
+}
+.portfolio-item .item{
+	/*width:303px;*/
+	float:left;
+	margin-bottom:10px;
+}
+.item{
+    transition: 0.5s;
+    cursor: pointer;
+}
+.item:hover{
+    scale: 1.1;
+    filter: drop-shadow(0 0 10px #fff);
+}
