@@ -37,5 +37,5 @@ body{
 }
 .item:hover{
     scale: 1.1;
-    filter: drop-shadow(0 0 10px #fff);
+    filter: drop-shadow(0 0 10px #000000);
 }
