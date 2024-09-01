@@ -1,7 +1,7 @@
 body{
 	margin:0;
 	padding:0;
-    background-image: url(https://th.bing.com/th/id/OIP.ToCJ3kA9RGOEyQwwPmmx0wHaEh?rs=1&pid=ImgDetMain);
+    background-image: url(https://static.vecteezy.com/system/resources/previews/002/129/263/original/abstract-white-background-with-elements-of-useful-food-vector.jpg);
 }
 /* .container{
 	width:90%
@@ -34,6 +34,9 @@ body{
 .item{
     transition: 0.5s;
     cursor: pointer;
+}
+.item img{
+	border-radius: 10px;
 }
 .item:hover{
     scale: 1.1;
